@@ -10,7 +10,7 @@ public class Day {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private String day_name;
-    private int number_of_events;
+    private int number_of_events = 0;
     private boolean holiday_check;
 
     @Override

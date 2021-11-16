@@ -26,7 +26,7 @@ public class Event {
     @Override
     public String toString() {
         return String.format(
-                "Day[day_name=%ld, description='%s', location='%s']",
+                "Event[id_event=%ld, description='%s', location='%s']",
                 id_event, description, location);
     }
 
