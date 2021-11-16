@@ -8,4 +8,9 @@ public class FridayBackController {
     public String Response() {
         return "Petit Test";
     }
+
+    @RequestMapping("/index")
+    public String test() {
+        return "Test2";
+    }
 }
